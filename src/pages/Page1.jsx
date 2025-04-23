@@ -30,7 +30,7 @@ export const Page1 = () => {
             <div onMouseMove={(e)=>{
                   mouseMoving(e)
             }} className="h-screen  p-3 bg-white ">
-                  <div id="page1-in" className="h-full w-full px-24 py-80 shadow-2xl bg-cover rounded-[50px] bg-[url(/src/assets/choice2.jpg)]">
+                  <div id="page1-in" className="h-full w-full px-24 py-80 shadow-2xl bg-cover rounded-[50px] bg-[url(/public/choice2.jpg)]">
                         <TiltText abc={tiltRef} />
                         <Page1Bottom />
                   </div>
