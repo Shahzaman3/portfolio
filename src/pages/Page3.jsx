@@ -5,7 +5,7 @@ export const Page3 = () => {
       return ( 
             <div className="h-screen p-8 ">
                   <div className="h-full w-full overflow-hidden relative rounded-[30px] flex items-center justify-between">
-                        <video autoPlay loop muted className="h-full w-full object-cover" src="/backgroundstars.mp4"></video>
+                        <video autoPlay loop muted className="h-full w-full object-cover" src={`${import.meta.env.BASE_URL}backgroundstars.mp4`}></video>
                         <div className="absolute flex flex-col md:flex-row items-start md:items-end gap-4 left-15 bottom-0 p-8">
                               <h1 className="text-[28vw] font-[anzo2] text-white">ABOUT</h1>
                               <div>
